@@ -1,5 +1,7 @@
 # AI Links
 
+https://llmmodels.org/ - aggregated list of models
+
 # Image Generation
 
 Flux - https://blackforestlabs.ai/#get-flux - Made by Black Forest Labs<br />

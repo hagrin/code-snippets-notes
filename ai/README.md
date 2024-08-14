@@ -19,3 +19,7 @@ Mistral - https://mistral.ai/ - by Mistral (French)<b />
 # Video Generation
 
 Sora - https://openai.com/index/sora/ - by OpenAI<br />
+
+# Voice Generation
+
+ElevenLabs - https://elevenlabs.io/ - Multitude of voice generation tools<br />

@@ -18,6 +18,7 @@ Mistral - https://mistral.ai/ - by Mistral (French)<b />
 
 # Video Generation
 
+Gen-3 - https://runwayml.com/ - by Runway<br />
 Sora - https://openai.com/index/sora/ - by OpenAI<br />
 
 # Voice Generation

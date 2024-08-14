@@ -16,6 +16,10 @@ Grok - https://x.com/i/grok - by X ($$$)<br />
 Llama - https://llama.meta.com/ - by Meta<br />
 Mistral - https://mistral.ai/ - by Mistral (French)<b />
 
+# Music Generation
+
+Udio - https://www.udio.com/home<br />
+
 # Video Generation
 
 Gen-3 - https://runwayml.com/ - by Runway<br />

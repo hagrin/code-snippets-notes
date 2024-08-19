@@ -10,3 +10,6 @@
 6) You will be required to pick a name for the bot - this can be anything you want
 7) You will then be asked to pick a bot name that ends in either *Bot or *_bot and this does need to be unique to Telegram.
 8) Once you choose a unique name, your bot will be created and you will receive an HTTP API token. Copy that into a safe, secure location.
+9) Using your IDE of choice, npm init.
+10) npm install node-telegram-bot-api
+11) From here you can follow the index.js file posted here to get a simple bot working

@@ -16,8 +16,9 @@
 
 ## Joining the Bot to a Channel
 
-This is actually more complicated than it should be (should just be like Discord where copying IDs is easy for server admins). To actually accomplish this easily, you can do the following -
+This is actually more complicated than it should be (should just be like Discord where copying IDs is easy for server admins) to do programmatically. In fact, the way to do this is not programmatically, just invite the bot to the channel and then you will be prompted that bots have to be admins, select permissions and then save. To actually accomplish this programmatically, you can do the following (although this is wholly unnecessary) -
 
 1) Invite the @MissRose_bot to your channel
 2) In a chat with MissRose, type /start or click START.
 3) Type /id. This should return the chat's ID.
+4) Once you have the channel ID, you can then write code to check if the bot is a memeber of the channel. (Want to emphasize, just do this all manually, this is beyond convoluted vs the Discord implementation of bots joining channels.

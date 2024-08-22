@@ -13,3 +13,11 @@
 9) Using your IDE of choice, npm init.
 10) npm install node-telegram-bot-api
 11) From here you can follow the index.js file posted here to get a simple bot working
+
+## Joining the Bot to a Channel
+
+This is actually more complicated than it should be (should just be like Discord where copying IDs is easy for server admins). To actually accomplish this easily, you can do the following -
+
+1) Invite the @MissRose_bot to your channel
+2) In a chat with MissRose, type /start or click START.
+3) Type /id. This should return the chat's ID.

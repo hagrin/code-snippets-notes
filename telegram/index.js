@@ -23,7 +23,7 @@ bot.on('channel_post', async (msg) => {
 });
 
 // Example 2 - One handler for both private messages and channel posts
-function handleIncomingMessage(chatType, chatId, messageText) {
+async function handleIncomingMessage(chatType, chatId, messageText) {
     // Process incoming messages here
 }
 bot.on('message', async (msg) => {

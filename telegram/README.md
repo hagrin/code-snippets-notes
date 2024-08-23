@@ -22,3 +22,9 @@ This is actually more complicated than it should be (should just be like Discord
 2) In a chat with MissRose, type /start or click START.
 3) Type /id. This should return the chat's ID.
 4) Once you have the channel ID, you can then write code to check if the bot is a memeber of the channel. (Want to emphasize, just do this all manually, this is beyond convoluted vs the Discord implementation of bots joining channels.
+
+## Channel Settings
+
+The one channel setting that I think all channels should set is to turn on "Sign Messages" and then "Show Author's Profiles" otherwise it will get confusing who is responding to what in your bot enabled channel.
+
+![Untitled](https://github.com/user-attachments/assets/01369d87-bd81-4554-8e5b-21d61e5bcc30)

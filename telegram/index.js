@@ -26,6 +26,8 @@ bot.on('channel_post', async (msg) => {
 async function handleIncomingMessage(chatType, chatId, messageText) {
     // Process incoming messages here
 }
+
+// Event handler for private messages
 bot.on('message', async (msg) => {
   handleIncomingMessage(msg.chat.type, msg.chat.id, msg.text);
 });

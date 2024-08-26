@@ -4,6 +4,7 @@
 # 1) You need to fill in your mySQL connection parameters below
 # 2) You might want to use more sophisticated database code - see pooling
 # 3) You will need to assign the years in the pbp_data line.
+#    - Note the sample code below loads 24 years worth of data. This will take a long time (just under 2GBs of data). Depending on how you want to handle this, you might not want to do 24 years of data at once.
 
 # Load required libraries
 library(nflfastR)

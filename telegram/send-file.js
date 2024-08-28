@@ -19,8 +19,10 @@ if (messageText === '/filerandom') {
                 case '.jpg':
                 case '.jpeg':
                 case '.png':
-                case '.gif':
                     await bot.sendPhoto(chatId, fs.createReadStream(filePath));
+                    break;
+                case '.gif':
+                    await bot.sendAnimation(chatId, fs.createReadStream(filePath));
                     break;
                 case '.mp3':
                 case '.ogg':

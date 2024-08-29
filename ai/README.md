@@ -2,6 +2,10 @@
 
 https://llmmodels.org/ - aggregated list of models
 
+# Code Editor
+
+Cursor - https://www.cursor.com/<br />
+
 # Image Generation
 
 Flux - https://blackforestlabs.ai/#get-flux - Made by Black Forest Labs<br />

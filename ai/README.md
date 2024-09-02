@@ -24,6 +24,10 @@ Mistral - https://mistral.ai/ - by Mistral (French)<b />
 
 Udio - https://www.udio.com/home<br />
 
+# UI/UX
+
+v0 - https://v0.dev/ - web development UI assistance / code generation
+
 # Video Generation
 
 Gen-3 - https://runwayml.com/ - by Runway<br />

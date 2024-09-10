@@ -24,6 +24,10 @@ Mistral - https://mistral.ai/ - by Mistral (French)<b />
 
 Udio - https://www.udio.com/home<br />
 
+# Prediction Markets
+
+539 - https://forecast.safe.ai/<br />
+
 # UI/UX
 
 v0 - https://v0.dev/ - web development UI assistance / code generation

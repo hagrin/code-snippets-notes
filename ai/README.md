@@ -28,6 +28,10 @@ Udio - https://www.udio.com/home<br />
 
 539 - https://forecast.safe.ai/<br />
 
+# Speech Recognition
+
+whisper.cpp - https://github.com/ggerganov/whisper.cpp - High-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model<br />
+
 # UI/UX
 
 v0 - https://v0.dev/ - web development UI assistance / code generation

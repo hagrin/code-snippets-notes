@@ -2,9 +2,10 @@
 
 https://llmmodels.org/ - aggregated list of models
 
-# Code Editor
+# Code Editor / Generation
 
 Cursor - https://www.cursor.com/<br />
+Replit - https://replit.com/ai<br />
 
 # Image Generation
 

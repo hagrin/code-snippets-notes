@@ -9,6 +9,8 @@ const bot = new Client({
   ]
 });
 
+// The following line here requires you put in your Application ID. You shouldn't do this, this is bad practice, but for simple bot development you can do this.
+// The correct solution is to create an .env file which will contain your environment variables.
 bot.login('your_key_here');
 
 bot.on('ready', () => {

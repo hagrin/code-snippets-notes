@@ -19,7 +19,8 @@ ChatGPT - https://chatgpt.com/ - by OpenAI<br />
 Claude - https://claude.ai/new - by Anthropic<br />
 Grok - https://x.com/i/grok - by X ($$$)<br />
 Llama - https://llama.meta.com/ - by Meta<br />
-Mistral - https://mistral.ai/ - by Mistral (French)<b />
+Mistral - https://mistral.ai/ - by Mistral (French)<br />
+NotebookLM - https://notebooklm.google.com/ - by Google - add documents for analysis<br />
 
 # Music Generation
 

@@ -17,6 +17,7 @@ Stable Diffusion - https://stability.ai/ - Made by Stability.ai<br />
 
 ChatGPT - https://chatgpt.com/ - by OpenAI<br />
 Claude - https://claude.ai/new - by Anthropic<br />
+Gemini - https://gemini.google.com/app - by Google<br />
 Grok - https://x.com/i/grok - by X ($$$)<br />
 Llama - https://llama.meta.com/ - by Meta<br />
 Mistral - https://mistral.ai/ - by Mistral (French)<br />

@@ -19,7 +19,7 @@ ChatGPT - https://chatgpt.com/ - by OpenAI<br />
 Claude - https://claude.ai/new - by Anthropic<br />
 Gemini - https://gemini.google.com/app - by Google<br />
 Grok - https://x.com/i/grok - by X ($$$)<br />
-Llama - https://llama.meta.com/ - by Meta<br />
+Llama - https://llama.meta.com/ - by Meta - note, Nvidia released Llama-3.1-Nemotron-70B which is a modified version of Llama's open source release.<br />
 Mistral - https://mistral.ai/ - by Mistral (French)<br />
 NotebookLM - https://notebooklm.google.com/ - by Google - add documents for analysis<br />
 

@@ -1,5 +1,8 @@
 // Code snippet to use C#.Net (.Net Core 8.0) to send Telegram webhooks
+using System;
+using System.Net.Http;
 using System.Text;
+using System.Threading.Tasks;
 namespace TestTelegramWebhook
 {
     class SendTelegramWebhook 

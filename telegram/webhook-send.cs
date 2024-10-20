@@ -7,11 +7,11 @@ namespace TestTelegramWebhook
 {
     class SendTelegramWebhook 
     { 
-        static async Task Main(string[] args)
+        private static async Task Main(string[] args)
         {
             await RunWebhook();
         }
-        static async Task RunWebhook()
+        private static async Task RunWebhook()
         {
             try
             {

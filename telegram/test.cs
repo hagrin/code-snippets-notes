@@ -15,7 +15,8 @@ namespace TestNamespace
         {
             try
             {
-                System.String strTest = "";
+                // Test to see if Github will format this correctly
+                string strTest = "";
             }
             catch (Exception ex)
             {

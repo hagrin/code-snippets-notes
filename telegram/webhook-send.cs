@@ -1,8 +1,5 @@
 // Code snippet to use C#.Net (.Net Core 8.0) to send Telegram webhooks
-using System;
-using System.Net.Http;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace TestTelegramWebhook
 {
@@ -16,6 +13,9 @@ namespace TestTelegramWebhook
         {
             try
             {
+                string strToken = "PUTYOURTOKENHERE";
+                string strURL = "https://api.telegram.org/bot" + strToken + "/sendMessage";
+                string strChannelID = "PUTYOURCHANNELIDHERE"; // Will have a -100 prefix
                 using (var httpClient = new HttpClient())
                 {
                     var requestUri = new Uri(strURL);
@@ -33,7 +33,7 @@ namespace TestTelegramWebhook
             }
             catch (Exception ex)
             {
-
+                string strError = ex.ToString();
             }
             finally
             {

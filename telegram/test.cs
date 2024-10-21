@@ -15,7 +15,7 @@ namespace TestNamespace
         {
             try
             {
-                string strTest = "";
+                System.String strTest = "";
             }
             catch (Exception ex)
             {

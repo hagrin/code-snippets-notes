@@ -10,6 +10,7 @@ Replit - https://replit.com/ai<br />
 # Image Generation
 
 Flux - https://blackforestlabs.ai/#get-flux - Made by Black Forest Labs<br />
+Kling AI - https://klingai.com/ - Motion Brush tool makes still images animated<br />
 Midjourney - https://www.midjourney.com/home<br />
 Stable Diffusion - https://stability.ai/ - Made by Stability.ai<br />
 

@@ -43,6 +43,7 @@ v0 - https://v0.dev/ - web development UI assistance / code generation
 # Video Generation
 
 Gen-3 - https://runwayml.com/ - by Runway<br />
+HunyuanVideo - https://github.com/Tencent/HunyuanVideo - by Tencent, open sourced model<br />
 Luma - https://lumalabs.ai/ - by Luma Labs<br />
 Sora - https://openai.com/index/sora/ - by OpenAI<br />
 

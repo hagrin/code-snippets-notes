@@ -1,11 +1,14 @@
 // Quick example of buttons inside a node-telegram-bot-api bot
 
+// Part of your normal Telegram bot
 bot.on('message', async (msg) => {
     handleIncomingMessage(msg.chat.type, msg.chat.id, msg.text);
 });
 bot.on('channel_post', async (msg) => {
     handleIncomingMessage(msg.chat.type, msg.chat.id, msg.text);
 });
+
+// Button specific callback handler
 
 bot.on('callback_query', async (callbackQuery) => {
     handleCallbackQuery(callbackQuery.message.chat.id, callbackQuery.data);

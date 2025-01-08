@@ -7,6 +7,10 @@ bot.on('channel_post', async (msg) => {
     handleIncomingMessage(msg.chat.type, msg.chat.id, msg.text);
 });
 
+bot.on('callback_query', async (callbackQuery) => {
+    handleCallbackQuery(callbackQuery.message.chat.id, callbackQuery.data);
+});
+
 async function handleIncomingMessage(chatType, chatId, messageText) {
     if (messageText === '/buttons') {
         const options = {

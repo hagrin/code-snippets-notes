@@ -14,6 +14,8 @@ bot.on('callback_query', async (callbackQuery) => {
     handleCallbackQuery(callbackQuery.message.chat.id, callbackQuery.data);
 });
 
+// A consideration here would be if you want the bot to respond to these button generating commands in chat or just PMs. There will likely be many applications where only responding in PMs is appropriate and you do not want these button commands to respond in a group chat.
+
 async function handleIncomingMessage(chatType, chatId, messageText) {
     if (messageText === '/buttons') {
         const options = {

@@ -22,4 +22,31 @@ A common solution you will see in there is that "Permission denied" to the .htac
 
 There can be a few issues for this one.
 1) First, just make sure that your Redirect URI in /scp/plugins.php matches the URI you have in your MSFT Application. Take special care of HTTP vs HTTPS.
-2) More likely, the problem I found people ran into was that your site configuration file must have AllowOverrides set to All (it will likely be set to None). You will very likely set this in
+2) More likely, the problem I found people ran into was that your site configuration file must have AllowOverrides set to All (it will likely be set to None). You will very likely set this in /etc/apache2/sites-available/yoursite.com.conf and it will look something like -
+
+```
+<VirtualHost YourSitesIP:443>
+    ServerAdmin admin@yoursite.com
+    ServerName yoursite.com
+    ServerAlias www.yoursite.com
+    DocumentRoot /var/www/yoursite.com/public_html
+
+    SSLEngine on
+    SSLCertificateFile /etc/letsencrypt/live/yoursite.com/fullchain.pem
+    SSLCertificateKeyFile /etc/letsencrypt/live/yoursite.com/privkey.pem
+    ErrorLog ${APACHE_LOG_DIR}/yoursite_error.log
+    CustomLog ${APACHE_LOG_DIR}/yoursite_access.log combined
+    RewriteEngine on
+    RewriteCond %{SERVER_NAME} =www.yoursite [OR]
+    RewriteCond %{SERVER_NAME} =yoursite
+    RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+
+    <Directory /path/to/your/webapp>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+</VirtualHost>
+```
+

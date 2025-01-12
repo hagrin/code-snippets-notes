@@ -20,7 +20,8 @@ Setup the websites that you want to setup.
 At this point, you have to configure the virtual hosts for all the sites.
 
 18) sudo nano /etc/apache2/sites-available/domain.com.conf - this creates the config file for the domain.
-19) In the file you will type - 
+19) In the file you will type -
+``` 
        <VirtualHost ipaddress:80>
            ServerAdmin admin@domain.com
            ServerName domain.com
@@ -29,8 +30,9 @@ At this point, you have to configure the virtual hosts for all the sites.
            ErrorLog ${APACHE_LOG_DIR}/domain.com_error.log
            CustomLog ${APACHE_LOG_DIR}/domain.com_access.log combined
         </VirtualHost>
-20) sudo a2ensite domain.com.conf - this enables the site/virtual host
-21) sudo systemctl restart apache2
+```
+21) sudo a2ensite domain.com.conf - this enables the site/virtual host
+22) sudo systemctl restart apache2
 
 At this point a basic HTML page will work, but PHP pages will throw an HTTP 500 error. This could be caused by a few issues; however, it is most likely caused by the fact the file permissions are wrong on your test file so you must sudo chmod your web files.
 

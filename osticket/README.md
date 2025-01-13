@@ -52,3 +52,6 @@ There can be a few issues for this one.
 </VirtualHost>
 ```
 
+### "Unable to Update Plugin Instance" Error
+
+You may encounter this error if you have already created an OAuth2 instance and you need to change the path of your Redirect URI. Interestingly enough, you may encounter this error if you try to save a new Redirect URI path either through the frontend or even directly through the ost_config table in your database. On the frontend you will be met with a very long "Loading" AJAX popup and eventually you will get the error. If you try to make the change directly to the database, you will notice that the path will not change on the frontend (I believe this might be some caching mechanism / issue, needs more research). The easiest solution? Just make a new instance and make sure your you have the "secret value" from your Azure application or create a new one.

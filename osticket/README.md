@@ -6,7 +6,9 @@ You might run into a bunch of issues when installing OSTicket, but the most comm
 
 ### HTTP 500 Error
 
-OSTicket does a really poor job of handling these errors and presenting the user with exactly what the error may be. You <strong>must</strong> check the logs to figure out what the error might be. Check the normal Apache logs, but also make sure to check your virtual host specific logs, if they exist, which will likely be located at /var/log/apache2/yoursite_error.log. 
+OSTicket does a really poor job of handling these errors and presenting the user with exactly what the error may be. You <strong>must</strong> check the logs to figure out what the error might be. Check the normal Apache logs, but also make sure to check your virtual host specific logs, if they exist, which will likely be located at /var/log/apache2/yoursite_error.log.
+
+If you get this 500 error when trying to install, it very likely can be your mySQL connection where it will be either credentials or a login privilege issue. If you get a 500 error after trying to move sites or servers or folders, make sure you check file permissions and chmod additional permissions as necessary.
 
 ## OAuth2 Plugin
 

@@ -45,6 +45,17 @@ You're going to want to setup SSL certs for your sites and GoDaddy actually make
 
 After you successfully get an SSL cert from Let's Encrypt, you can verify where Let's Encrypt puts its own .conf file by running sudo apachectl -S to confirm all the .conf paths.
 
+#### Common Errors
+
+If you receive the following error - 
+
+```
+Failed redirect for testsite.com 
+Unable to set the redirect enhancement for testsite.com
+Unable to find corresponding HTTP vhost; Unable to create one as intended addresses conflict; Current configuration does not support automated redirection
+```
+
+
 ### FTP Server
 
 While not advised to setup an FTP server, if you have to - 

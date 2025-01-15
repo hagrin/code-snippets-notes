@@ -55,6 +55,7 @@ Unable to set the redirect enhancement for testsite.com
 Unable to find corresponding HTTP vhost; Unable to create one as intended addresses conflict; Current configuration does not support automated redirection
 ```
 
+This might mean that the testsite.com.conf file you have in /etc/apache2/sites-available has a binding set to :443 or, more specifically, some port that is not port 80. Change the port binding to port 80 if it isn't already set and try re-running the certbot command again.
 
 ### FTP Server
 

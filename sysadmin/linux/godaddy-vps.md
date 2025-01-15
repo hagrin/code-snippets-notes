@@ -36,6 +36,15 @@ At this point, you have to configure the virtual hosts for all the sites.
 
 At this point a basic HTML page will work, but PHP pages will throw an HTTP 500 error. This could be caused by a few issues; however, it is most likely caused by the fact the file permissions are wrong on your test file so you must sudo chmod your web files.
 
+### Let's Encrypt
+
+You're going to want to setup SSL certs for your sites and GoDaddy actually makes this incredibly difficult if you try searching for this on Google.
+
+- sudo apt install certbot python3-certbot-apache -y
+- sudo certbot --apache -d yoursite.com -d www.yoursite.com
+
+After you successfully get an SSL cert from Let's Encrypt, you can verify where Let's Encrypt puts its own .conf file by running sudo apachectl -S to confirm all the .conf paths.
+
 ### FTP Server
 
 While not advised to setup an FTP server, if you have to - 

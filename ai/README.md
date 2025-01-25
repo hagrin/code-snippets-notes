@@ -19,6 +19,7 @@ Stable Diffusion - https://stability.ai/ - Made by Stability.ai<br />
 ChatGPT - https://chatgpt.com/ - by OpenAI<br />
 Claude - https://claude.ai/new - by Anthropic<br />
 Deepseek - https://www.deepseek.com/ - (Chinese)<br />
+Doubao - https://www.doubao.com/chat/ - ByteDance (Chinese(<br />
 Gemini - https://gemini.google.com/app - by Google<br />
 Grok - https://x.com/i/grok - by X ($$$)<br />
 Llama - https://llama.meta.com/ - by Meta - note, Nvidia released Llama-3.1-Nemotron-70B which is a modified version of Llama's open source release.<br />

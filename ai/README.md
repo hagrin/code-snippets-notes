@@ -4,6 +4,7 @@ https://llmmodels.org/ - aggregated list of models
 
 # Code Editor / Generation
 
+Copilot<br />
 Cursor - https://www.cursor.com/<br />
 Replit - https://replit.com/ai<br />
 Softgen<br />

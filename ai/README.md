@@ -56,3 +56,4 @@ Sora - https://openai.com/index/sora/ - by OpenAI<br />
 # Voice Generation
 
 ElevenLabs - https://elevenlabs.io/ - Multitude of voice generation tools<br />
+Zonos - https://playground.zyphra.com/audio - Voice cloning tool<br />

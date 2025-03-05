@@ -16,6 +16,7 @@ Windsurf<br />
 Flux - https://blackforestlabs.ai/#get-flux - Made by Black Forest Labs<br />
 Kling AI - https://klingai.com/ - Motion Brush tool makes still images animated<br />
 Midjourney - https://www.midjourney.com/home<br />
+Pandora X by Tencent - https://github.com/Tencent/Tencent-XR-3DGen - 3D model generation<br />
 Stable Diffusion - https://stability.ai/ - Made by Stability.ai<br />
 
 # LLMs

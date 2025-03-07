@@ -9,7 +9,7 @@ Cursor - https://www.cursor.com/<br />
 Replit - https://replit.com/ai<br />
 Softgen<br />
 Wrapifai<br />
-Windsurf<br />
+Windsurf - https://windsurfai.org/<br />
 
 # Image Generation
 

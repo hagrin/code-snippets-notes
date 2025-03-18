@@ -10,3 +10,7 @@ As of right now (March 2025) there's 3+ different tracks companies / individuals
 * Purchase retail / consumer hardware and hack together an in-house solution utilizing open source models
 
 Since the first two options are a bit more straightforward, I will focus mainly on the third option which will be accessible to a wider audience.
+
+### The Rise of the Mac Mini
+
+https://www.apple.com/shop/buy-mac/mac-mini

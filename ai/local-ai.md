@@ -13,4 +13,8 @@ Since the first two options are a bit more straightforward, I will focus mainly 
 
 ### The Rise of the Mac Mini
 
+While Sam Altman and OpenAI clamor for an "AI moat" to protect their interests, there are many efforts that believe 
+
 https://www.apple.com/shop/buy-mac/mac-mini
+
+https://github.com/exo-explore/exo

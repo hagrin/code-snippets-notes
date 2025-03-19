@@ -13,7 +13,9 @@ Since the first two options are a bit more straightforward, I will focus mainly 
 
 ### The Rise of the Mac Mini
 
-While Sam Altman and OpenAI clamor for an "AI moat" to protect their interests, there are many efforts that believe 
+While Sam Altman and OpenAI clamor for an "AI moat" to protect their interests, there are many efforts that believe that AI efforts should be accessible using whatever hardware / devices that individuals could easily access. For this to be possible, there would need to be a two prong effort - accessible hardware and software that made efficiency gains in LLMs and other models to lower the hardware requirement bar. One of those hardware hurdles comes in the form of GPU prices. Whether the H or A series Nvidia offerings or the 40xx series GPUs, the price tags associated to these offerings are currently expensive and subject to very high demand. Enter the Apple Mac Mini.<br /><br />
+
+In order to better leverage their Silicon chips, Apple developed MLX which, on Apple hardware, can perform better than PyTorch. 
 
 https://www.apple.com/shop/buy-mac/mac-mini
 

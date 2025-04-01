@@ -34,6 +34,7 @@ NotebookLM - https://notebooklm.google.com/ - by Google - add documents for anal
 
 # Music Generation
 
+Mureka - https://www.mureka.ai/<br />
 Udio - https://www.udio.com/home<br />
 
 # Prediction Markets

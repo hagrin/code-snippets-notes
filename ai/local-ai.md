@@ -20,3 +20,7 @@ In order to better leverage their Silicon chips, Apple developed MLX which, on A
 https://www.apple.com/shop/buy-mac/mac-mini
 
 https://github.com/exo-explore/exo
+
+## Small Models
+
+bitnet.cpp - https://github.com/microsoft/BitNet

@@ -11,8 +11,11 @@ const bot = new Client({
 
 // The following line here requires you put in your Application ID. You shouldn't do this, this is bad practice, but for simple bot development you can do this.
 // The correct solution is to create an .env file which will contain your environment variables.
+
+// Where do you get this key? In the Discord Developer site > Left side Menu "Bot" section > Reset Token and either save this or you'll have to issue a new one
 bot.login('your_key_here');
 
+// v15 will require clientReady here
 bot.on('ready', () => {
     console.log('Bot ready.');
 });

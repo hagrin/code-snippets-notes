@@ -11,6 +11,8 @@ This is a very complicated topic that requires looking at the issue from many di
 
 ## Corporate 
 
+Protecting IP / Sensitive Business Practices with Lower Cost Locally Tuned Models - https://x.com/brian_armstrong/status/2109412046244913643 - Coinbase 
+
 NDAs With AI Sections on Deal Evaluation - https://x.com/BillDA/status/2110509457272979895 - contractual attempt at preventing the training on CIMs (Confidential Information Memorandums)<br />
 
 Blocking AI Agents - https://x.com/trikcode/status/2111622265284546620 - Delta, JPM Chase, Yelp, Amazon all have started some amount of AI agent blocking for a variety of reasons from the costs to serving these bots, preventing unfair consumer habits, security, etc.

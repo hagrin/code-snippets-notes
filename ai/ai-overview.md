@@ -12,5 +12,6 @@ Corporate Token Spend - https://ramp.com/data/ai-index-oct-2026 - Ramp AI Index,
 
 ## Attack Vectors
 
-* AI Agents Summarizing Your Inbox - https://blog.barracuda.com/2026/08/04/ai-enabled-email-accounts-insider-threat and https://blog.barracuda.com/2026/10/07/email-attacks-target-both-humans-ai-assistants - the second link specifically where email AI agents are subjected to malicious prompts not viewable to the human. Very obvious security risk.
-* Purchasing Router Datasets - https://x.com/shoucccc/status/2098169782541631871 - Builds off this paper https://arxiv.org/abs/2604.08407 ("Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain". Data sent through routers by AI users harvested, sold and not sanitized / enforce cryptographic integrity / etc.
+AI Agents Summarizing Your Inbox - https://blog.barracuda.com/2026/08/04/ai-enabled-email-accounts-insider-threat and https://blog.barracuda.com/2026/10/07/email-attacks-target-both-humans-ai-assistants - the second link specifically where email AI agents are subjected to malicious prompts not viewable to the human. Very obvious security risk.
+
+Purchasing Router Datasets - https://x.com/shoucccc/status/2098169782541631871 - Builds off this paper https://arxiv.org/abs/2604.08407 ("Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain". Data sent through routers by AI users harvested, sold and not sanitized / enforce cryptographic integrity / etc.

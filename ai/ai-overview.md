@@ -6,6 +6,7 @@ Just a collection of thoughts and asking myself questions trying to hash out a s
 ### Chinese Open Source Models
 
 This is a very complicated topic that requires looking at the issue from many different angles. Some of those angles include (but are not exclusive to) - 
+* Qwen Escaping Sandbox - https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model - additional work on this was done by Warren Togami here https://x.com/wtogami/status/2114923198475288751 . Some concerning results where English queries escaped some non-zero amount of the time
 * US / Western frontier labs possibly protecting their valuations by asking the US government to ban or restrict these models / imports
 * US Government wanting to ban / restrict Chinese / foreign models on their own - https://www.federalregister.gov/public-inspection/2026-21447/order-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive-branch-information
 * China possibly restricting or banning the export of certain models that perform certain functions - this is rumored to possibly be in the works by the Chinese government to protect AI tooling that writes malware, tools built for defending critical infrastructure, Chinese core data (Source - https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html ). 
